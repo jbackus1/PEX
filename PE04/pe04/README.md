@@ -1,6 +1,6 @@
 Todo List Application
-This is a simple Todo List application built with React that allows users to add and remove tasks.
-Input
+
+##Input
 The application accepts user input through:
 
 A text input field where users can type the description of their task
@@ -10,7 +10,9 @@ Another button click interaction to delete specific tasks from the list
 Keyboard interaction (pressing Enter) to add a task as an alternative to clicking the button
 
 These inputs represent the primary way users interact with the application to manage their todo items.
-Process
+
+
+##Process
 The application processes user interactions using React's state management with the useState hook:
 
 When a user types in the input field, the inputValue state is updated with each keystroke
@@ -27,7 +29,7 @@ App.js serves as the main container
 TodoList.js manages state and provides the input field and container for todo items
 TodoItem.js renders individual todo items and handles delete functionality
 
-Output
+##Output
 The application outputs a visual representation of:
 
 The current input value in the text field
